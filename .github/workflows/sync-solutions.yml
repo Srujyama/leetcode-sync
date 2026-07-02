@@ -1,0 +1,35 @@
+# OPTIONAL: sync your actual solution code from LeetCode into this repo.
+#
+# Unlike the stats tracker, this needs your LeetCode session cookies, which
+# expire every few weeks and must be refreshed by hand. That's why it is
+# manual-trigger only. To enable it:
+#
+#   1. Log in to leetcode.com in your browser.
+#   2. DevTools > Application > Cookies > https://leetcode.com — copy the
+#      values of LEETCODE_SESSION and csrftoken.
+#   3. In this repo: Settings > Secrets and variables > Actions, add secrets
+#      LEETCODE_SESSION and LEETCODE_CSRF_TOKEN.
+#   4. Run this workflow from the Actions tab (or: gh workflow run sync-solutions.yml).
+#      To make it automatic, uncomment the `schedule:` block below.
+
+name: Sync LeetCode solutions
+
+on:
+  workflow_dispatch:
+  # schedule:
+  #   - cron: "37 5 * * *" # daily, once secrets are set up
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sync solutions
+        uses: joshcai/leetcode-sync@v1.7
+        with:
+          github-token: ${{ github.token }}
+          leetcode-csrf-token: ${{ secrets.LEETCODE_CSRF_TOKEN }}
+          leetcode-session: ${{ secrets.LEETCODE_SESSION }}
+          destination-folder: solutions
