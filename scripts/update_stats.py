@@ -206,13 +206,27 @@ def build_readme(stats: dict, history: list, config: dict) -> str:
     return "\n".join(lines)
 
 
+def strip_timestamp(text: str) -> str:
+    return "\n".join(line for line in text.splitlines()
+                     if not line.startswith("> Auto-updated"))
+
+
 def main() -> None:
     config = load_config()
     stats = fetch_stats(config["leetcode_username"],
                         config.get("recent_submissions_limit", 10))
     history = update_history(stats)
-    (REPO_ROOT / "README.md").write_text(build_readme(stats, history, config))
-    print(f"Updated stats for {stats['username']}: "
+
+    # Only rewrite the README when something besides the timestamp changed,
+    # so the scheduled workflow doesn't commit when stats are unchanged.
+    readme_path = REPO_ROOT / "README.md"
+    old = readme_path.read_text() if readme_path.exists() else ""
+    new = build_readme(stats, history, config)
+    if strip_timestamp(old) != strip_timestamp(new):
+        readme_path.write_text(new)
+    else:
+        print("No stat changes since last run; README left untouched.")
+    print(f"Stats for {stats['username']}: "
           f"{stats['solved'].get('All', 0)} solved "
           f"(E {stats['solved'].get('Easy', 0)} / "
           f"M {stats['solved'].get('Medium', 0)} / "
