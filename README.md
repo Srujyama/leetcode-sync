@@ -1,23 +1,26 @@
 # 📊 LeetCode Progress — [srujyama](https://leetcode.com/u/srujyama/)
 
-> Auto-updated by GitHub Actions · Last updated: **2026-07-08 03:50 UTC**
+> Auto-updated by GitHub Actions · Last updated: **2026-07-08 09:02 UTC**
 
-**3 / 3985 solved** · 🔥 Streak: **2** day(s) · 📅 Active days: **4** · 🏅 Ranking: **#5,000,001**
+**5 / 3985 solved** · 🔥 Streak: **2** day(s) · 📅 Active days: **5** · 🏅 Ranking: **#5,000,001**
 
 ## Progress
 
 | Difficulty | Solved | Progress |
 |---|---:|---|
 | 🟢 Easy | 3 / 953 | `░░░░░░░░░░░░░░░░░░░░ 0.3%` |
-| 🟡 Medium | 0 / 2081 | `░░░░░░░░░░░░░░░░░░░░ 0.0%` |
+| 🟡 Medium | 2 / 2081 | `░░░░░░░░░░░░░░░░░░░░ 0.1%` |
 | 🔴 Hard | 0 / 951 | `░░░░░░░░░░░░░░░░░░░░ 0.0%` |
-| **All** | **3 / 3985** | `░░░░░░░░░░░░░░░░░░░░ 0.1%` |
+| **All** | **5 / 3985** | `░░░░░░░░░░░░░░░░░░░░ 0.1%` |
 
 ## Recent accepted submissions
 
 | Problem | Solved on |
 |---|---|
-| [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | 2026-07-07 |
+| [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 2026-07-08 |
+| [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | 2026-07-08 |
+| [Two Sum](https://leetcode.com/problems/two-sum/) | 2026-07-08 |
+| [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | 2026-07-08 |
 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | 2026-07-07 |
 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | 2026-06-30 |
 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | 2026-06-29 |
@@ -27,7 +30,7 @@
 
 | Date | Total | Easy | Medium | Hard | Streak |
 |---|---:|---:|---:|---:|---:|
-| 2026-07-08 | 3 | 3 | 0 | 0 | 2 |
+| 2026-07-08 | 5 | 3 | 2 | 0 | 2 |
 | 2026-07-07 | 3 | 3 | 0 | 0 | 2 |
 | 2026-07-06 | 3 | 3 | 0 | 0 | 2 |
 | 2026-07-05 | 3 | 3 | 0 | 0 | 2 |
