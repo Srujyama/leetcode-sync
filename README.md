@@ -1,17 +1,17 @@
 # 📊 LeetCode Progress — [srujyama](https://leetcode.com/u/srujyama/)
 
-> Auto-updated by GitHub Actions · Last updated: **2026-07-11 03:48 UTC**
+> Auto-updated by GitHub Actions · Last updated: **2026-07-12 04:03 UTC**
 
-**5 / 3985 solved** · 🔥 Streak: **3** day(s) · 📅 Active days: **6** · 🏅 Ranking: **#5,000,001**
+**5 / 3989 solved** · 🔥 Streak: **3** day(s) · 📅 Active days: **6** · 🏅 Ranking: **#5,000,001**
 
 ## Progress
 
 | Difficulty | Solved | Progress |
 |---|---:|---|
-| 🟢 Easy | 3 / 953 | `░░░░░░░░░░░░░░░░░░░░ 0.3%` |
-| 🟡 Medium | 2 / 2081 | `░░░░░░░░░░░░░░░░░░░░ 0.1%` |
-| 🔴 Hard | 0 / 951 | `░░░░░░░░░░░░░░░░░░░░ 0.0%` |
-| **All** | **5 / 3985** | `░░░░░░░░░░░░░░░░░░░░ 0.1%` |
+| 🟢 Easy | 3 / 954 | `░░░░░░░░░░░░░░░░░░░░ 0.3%` |
+| 🟡 Medium | 2 / 2083 | `░░░░░░░░░░░░░░░░░░░░ 0.1%` |
+| 🔴 Hard | 0 / 952 | `░░░░░░░░░░░░░░░░░░░░ 0.0%` |
+| **All** | **5 / 3989** | `░░░░░░░░░░░░░░░░░░░░ 0.1%` |
 
 ## Recent accepted submissions
 
@@ -31,6 +31,7 @@
 
 | Date | Total | Easy | Medium | Hard | Streak |
 |---|---:|---:|---:|---:|---:|
+| 2026-07-12 | 5 | 3 | 2 | 0 | 3 |
 | 2026-07-11 | 5 | 3 | 2 | 0 | 3 |
 | 2026-07-10 | 5 | 3 | 2 | 0 | 3 |
 | 2026-07-09 | 5 | 3 | 2 | 0 | 3 |
