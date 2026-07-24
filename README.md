@@ -1,8 +1,8 @@
 # 📊 LeetCode Progress — [srujyama](https://leetcode.com/u/srujyama/)
 
-> Auto-updated by GitHub Actions · Last updated: **2026-07-23 03:50 UTC**
+> Auto-updated by GitHub Actions · Last updated: **2026-07-24 03:49 UTC**
 
-**5 / 3999 solved** · 🔥 Streak: **3** day(s) · 📅 Active days: **6** · 🏅 Ranking: **#5,000,001**
+**5 / 3999 solved** · 🔥 Streak: **3** day(s) · 📅 Active days: **7** · 🏅 Ranking: **#5,000,001**
 
 ## Progress
 
@@ -17,6 +17,7 @@
 
 | Problem | Solved on |
 |---|---|
+| [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 2026-07-23 |
 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | 2026-07-09 |
 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 2026-07-08 |
 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | 2026-07-08 |
@@ -31,6 +32,7 @@
 
 | Date | Total | Easy | Medium | Hard | Streak |
 |---|---:|---:|---:|---:|---:|
+| 2026-07-24 | 5 | 3 | 2 | 0 | 3 |
 | 2026-07-23 | 5 | 3 | 2 | 0 | 3 |
 | 2026-07-22 | 5 | 3 | 2 | 0 | 3 |
 | 2026-07-21 | 5 | 3 | 2 | 0 | 3 |
