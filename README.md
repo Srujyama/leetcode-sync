@@ -1,6 +1,6 @@
 # 📊 LeetCode Progress — [srujyama](https://leetcode.com/u/srujyama/)
 
-> Auto-updated by GitHub Actions · Last updated: **2026-08-12 03:00 UTC**
+> Auto-updated by GitHub Actions · Last updated: **2026-08-13 03:03 UTC**
 
 **5 / 4018 solved** · 🔥 Streak: **3** day(s) · 📅 Active days: **7** · 🏅 Ranking: **#5,000,001**
 
@@ -32,6 +32,7 @@
 
 | Date | Total | Easy | Medium | Hard | Streak |
 |---|---:|---:|---:|---:|---:|
+| 2026-08-13 | 5 | 3 | 2 | 0 | 3 |
 | 2026-08-12 | 5 | 3 | 2 | 0 | 3 |
 | 2026-08-11 | 5 | 3 | 2 | 0 | 3 |
 | 2026-08-10 | 5 | 3 | 2 | 0 | 3 |
@@ -61,7 +62,6 @@
 | 2026-07-17 | 5 | 3 | 2 | 0 | 3 |
 | 2026-07-16 | 5 | 3 | 2 | 0 | 3 |
 | 2026-07-15 | 5 | 3 | 2 | 0 | 3 |
-| 2026-07-14 | 5 | 3 | 2 | 0 | 3 |
 
 ---
 
